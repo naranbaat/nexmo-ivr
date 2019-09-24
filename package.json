@@ -1,0 +1,16 @@
+{
+  "name": "simple-ivr",
+  "version": "1.0.0",
+  "description": "* Register a Nexmo application * Purchase a number and associate that number with your application * Populate API key/secret, application ID and make sure that `private.key` exists at the same level as `index.js` * Update the event URL to be your server * Run index.js then call your number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Batuhan Naranbaat <naranbaat0423@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nexmo": "^2.4.2"
+  }
+}
